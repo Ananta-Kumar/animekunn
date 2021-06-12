@@ -1,0 +1,390 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /*font-family: 'Handlee', cursive;*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title h3{
+    font-weight: bold;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Handlee', cursive;
+    backdrop-filter: blur(5px);
+}
+.hr-style{
+    border: 5px dotted black;
+    width: 60px;
+    border-bottom: none;
+}
+
+/*Header starts*/
+
+header{
+    background-image: url("images/itachi\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-container{
+    height: 100vh;
+}
+
+.navbar{
+    padding: 1% 7%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: .3s;
+}
+
+.navbar-toggler:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-icon{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.5rem;
+}
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+    opacity: 0.8;
+}
+
+.nav-link{
+    color: rgba(0, 0, 0, 1);
+    margin: 10px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+}
+
+
+.banner-container h1{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 3.5rem;
+    font-family: 'Handlee', cursive;
+}  
+
+.banner-container p{
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    font-family: 'Handlee', cursive;
+}
+
+.banner-container .btn{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+#banner .btn:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+}
+
+/*header ends*/
+
+/*features starts*/
+
+#features{
+    background-image: url("images/itachi\ \(3\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    padding: 1% 7%;
+    min-height: 100vh;
+}
+
+.features-col{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: 0.4s;
+}
+.features-col:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+    box-shadow:0 5px 10px 5px rgba(255, 255, 255, 0.7);
+
+}
+
+/*features ends*/
+
+/*about me starts*/
+
+#about-me{
+    background-image: url("images/itachi-uchiha.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1% 7%;
+    min-height: 100vh;
+}
+
+.about-col{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.about-col p{
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+.about-col a{
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
+.about-col:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.7);
+    box-shadow:0 5px 10px 5px rgba(255, 255, 255, 0.7);
+}
+
+
+.star{
+    width: 20px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*about me ends*/
+
+/*tutorials starts here*/
+
+#animes{
+    background-image: url("images/cloud.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1% 7%;
+    min-height: 100vh;
+}
+
+.card{
+    transition: 0.4s;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    min-height: 340px;
+}
+
+.anime-img{
+    height: 200px;
+    transition: 0.4s;
+}
+
+
+.card:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.7);
+    transform: scale(1.05);
+    box-shadow:0 5px 10px 5px rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+/*tutorials ends here*/
+
+/*feedback starts*/
+
+#feedback{
+    background-image: url("images/cloud.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1% 7%;
+    min-height: 100vh;
+}
+
+
+.feedback-img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.carousel-item{
+    padding: 5% 15%;
+    text-align: center;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.carousel-indicators{
+    bottom: -20px;
+}
+
+/*feedback ends*/
+
+/*contact starts*/
+
+#contact{
+    background-image: url("images/cloud.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1% 7%;
+    min-height: 100vh;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    transition: 0.5s;
+}
+
+.form-group label{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.form-control{
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.4s;
+    letter-spacing:0.4px;
+}
+
+
+/*contact ends*/
+
+/*footer starts here*/
+
+footer{
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1% 7%;
+    height: auto;
+}
+
+footer a{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding:  10px 12px;
+    margin: 0 10px;
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+footer a:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 0.8);
+    transform: scale(1.2);
+}
+
+footer a:hover i{
+    
+    transform: scale(1.3);
+}
+
+/*footer ends here*/
+
+@media (max-width:768px) {
+    .nav-link{
+        background-color: rgba(255, 255, 255, 0.3);
+        transition: .5s;
+    }
+
+    .banner-container h1{
+        font-size: 2.5rem;
+    } 
+
+    .banner-container p{
+        width: 300px;
+        font-size: 1.5rem;
+    }
+
+    .banner-container .btn{
+        font-weight: 500;
+    }
+
+    .features-col{
+        max-width: 300px;
+        max-height: 300px;
+        margin: 20px auto;
+    }
+
+    .about-col{
+        max-width:350px ;
+        max-height: 350px;
+        margin: 5px auto;
+    }
+    
+    .card{
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    
+}
+
+@media (max-height:992px) {
+    
+    .banner-container h1{
+        font-size: 3rem;
+    } 
+
+    .features-col{
+        max-width: 380px;
+        max-height: 380px;
+        margin: 20px auto;
+    }
+
+    .about-col{
+        max-width:450px ;
+        max-height: 450px;
+        margin: 5px auto;
+    }
+
+    .card{
+        max-width: 250px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:1200px) {
+    
+
+}
